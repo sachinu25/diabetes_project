@@ -12,7 +12,6 @@ from sklearn.metrics import classification_report, accuracy_score
 
 df = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/diabetes.csv")
 
-# Features & target
 X = df.drop("Outcome", axis=1)
 y = df["Outcome"]
 
